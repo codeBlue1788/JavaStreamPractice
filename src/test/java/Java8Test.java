@@ -17,7 +17,7 @@ public class Java8Test {
   }
 
   /**
-   * 將B開頭的輸出為一個陣列
+   * 將B開頭的輸出為一個List
    */
   @Test
   void test2() {
