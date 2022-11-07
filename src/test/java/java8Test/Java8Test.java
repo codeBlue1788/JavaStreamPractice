@@ -1,3 +1,5 @@
+package java8Test;
+
 import com.java8practice.model.Stock;
 import com.java8practice.model.Transaction;
 import java.util.Arrays;
@@ -57,7 +59,6 @@ public class Java8Test {
   @Test
   void test6() {
     List<Transaction> transactions = givenTransactions();
-
   }
 
   /**
@@ -73,7 +74,7 @@ public class Java8Test {
    * 承上題，按照年份將交易額加總轉換為transaction物件。
    * Ex: Stock: year: 202202, share: 5 ,unitPrice: 6
    *     Stock: year: 202202, share: 4 ,unitPrice: 5
-   *     轉換為 Transaction Year: 2022, amount: 50
+   * 轉換為 Transaction Year: 2022, amount: 50
    */
   @Test
   void test8() {
